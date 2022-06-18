@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+# Activar rewrite
+RewriteEngine on
+ErrorDocument 404 http://localhost/prueba-tecnica/error/index
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+#RewriteRule ^(.*)/(.*) index.php?controller=$1&action=$2
+RewriteRule ^([a-zA-Z]*)/([a-zA-Z]*)/?(.*)? index.php?controller=$1&action=$2&id=$3
+</IfModule>

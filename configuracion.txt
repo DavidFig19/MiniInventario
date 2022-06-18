@@ -1,0 +1,16 @@
+Josue Figueroa
+---configuracion de la base de datos---
+en el carpeta de config, en el archivo de database.php, se configura el nombre de la base de datos, el host, usuario y contraseña
+en el archivo parameters.php, estan las constantes de el BASE_URL "http//localhost/prueba-tecnica/", asi como tambien el
+controlador y la accion que se emostrara por defecto.
+---Archiv .httaccess---
+
+en este archivo esta definido la ruta para el error 404
+y tambien estan las expresiones regulares para que pueda aceptar la las rutas con diagonal /controller/funcion/id
+
+--nota--
+se instalaron algunos paquetes con composer, como pór ejemplo la de zebra_pagination de stefangabos
+Link al zebra pagination:https://packagist.org/packages/stefangabos/zebra_pagination
+no se agregaron alertas.
+
+

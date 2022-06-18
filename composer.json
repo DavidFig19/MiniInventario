@@ -1,0 +1,6 @@
+{
+    "require": {
+        "stefangabos/zebra_pagination": "^2.4",
+        "firephp/firephp-core": "^0.5.3"
+    }
+}
